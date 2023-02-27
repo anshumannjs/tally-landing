@@ -19,7 +19,7 @@ export default function Integration() {
 
             <div className='w-full'>
                 <div className='flex'>
-                <img className='mx-auto' src="https://images01.nicepagecdn.com/page/84/75/website-template-84755.jpg" alt="" />
+                <img className='mx-auto hidden md:block' src="https://images01.nicepagecdn.com/page/84/75/website-template-84755.jpg" alt="" />
                 <img className='mx-auto' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpqee3UmXi0KbOaf6LmEJoO9hSm3HtpvGx57inbpfEuDLaVM5Eyekj_YmZ5gLYh8fS2Q&usqp=CAU" alt="" />
                 </div>
                 <div >
