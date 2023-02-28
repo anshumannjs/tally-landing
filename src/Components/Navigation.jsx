@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from 'flowbite-react';
 import { Navbar } from 'flowbite-react';
+import img from '../Glassball (1).png'
 
 export default function Navigation(props) {
   return (
@@ -9,20 +10,20 @@ export default function Navigation(props) {
         <React.Fragment key=".0">
           <Navbar.Brand href="https://flowbite.com/" className=''>
             <img
-              alt="Flowbite Logo"
-              className="mr-3 h-6 sm:h-9"
-              src="https://flowbite.com/docs/images/logo.svg"
+              alt="Glassball Logo"
+              className="mr-3 h-10 sm:h-20"
+              src={img}
             />
             <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
-              Saasimi
+              Glass Ball
             </span>
           </Navbar.Brand>
           <div className="flex gap-3 md:order-2">
-            <Button color={'gray'} pill={true}>
+            {/* <Button color={'gray'} pill={true}>
               Log in
-            </Button>
+            </Button> */}
             <Button color={'dark'} pill={true}>
-              Get started
+              Get activation code
             </Button>
             <Navbar.Toggle />
           </div>
@@ -31,19 +32,19 @@ export default function Navigation(props) {
               active
               href="/navbars"
             >
-              Product
+              Home
             </Navbar.Link>
             <Navbar.Link href="/navbars">
-              Pricing
+            Features
             </Navbar.Link>
             <Navbar.Link href="/navbars">
-              Company
+            Pricing
             </Navbar.Link>
             <Navbar.Link href="/navbars">
-              Resources
+            Blog
             </Navbar.Link>
             <Navbar.Link href="/navbars">
-              Contact
+            Contact
             </Navbar.Link>
           </Navbar.Collapse>
         </React.Fragment>
