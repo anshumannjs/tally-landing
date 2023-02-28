@@ -4,7 +4,7 @@ import SyncIcon from '@mui/icons-material/Sync'
 
 export default function CardType3rdCard() {
     return (
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[90%] mx-auto mt-10">
+        <div className="card lg:card-side bg-white text-black shadow-xl w-[90%] mx-auto mt-10">
             <figure><img src="https://infocrest.in/images/solution/business-plan.png" alt="Album" /></figure>
             <div className="card-body">
                 <div className='w-full'>

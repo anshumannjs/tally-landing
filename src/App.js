@@ -11,9 +11,11 @@ import TestimonialSection from './Pages/Home page/TestimonialSection';
 import FaqComponent from './Components/FaqComponent';
 import Footer1 from './Components/Footer1';
 
+import './Whitney-Book.otf'
+
 function App() {
   return (
-    <div>
+    <div className='fontFamily'>
       <Navigation></Navigation>
       <HeroSection></HeroSection>
       <Partners></Partners>

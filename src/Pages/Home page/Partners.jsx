@@ -7,7 +7,7 @@ import ApartmentIcon from '@mui/icons-material/Apartment';
 
 export default function Partners() {
     return (
-        <div className='flex w-full mt-10'>
+        <div className='flex w-full pt-10 bg-white text-black'>
             <div className='font-bold  w-[30%]'>
                 Trusted by industry leaders
             </div>

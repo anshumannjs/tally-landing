@@ -3,7 +3,7 @@ import DoneIcon from '@mui/icons-material/Done'
 
 export default function CardType2ndCard() {
     return (
-        <div className="card lg:card-side bg-base-100 shadow-xl w-[90%] mx-auto mt-10">
+        <div className="card lg:card-side bg-white text-black shadow-xl w-[90%] mx-auto mt-10">
             <div className="card-body">
                 <div className='w-full'>
                     <div className='bg-green-200 text-green-900 font-bold p-2 rounded-full inline-block'>
