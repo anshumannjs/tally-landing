@@ -7,7 +7,7 @@ import PsychologyIcon from '@mui/icons-material/Psychology'
 
 export default function ExploreFeatureCards() {
   return (
-    <div className='flex mt-5 flex-col md:flex-row'>
+    <div className='flex mt-5 flex-col md:flex-row space-y-10 md:space-y-0'>
         <CardType1 color='bg-cyan-300' icon={<DataSaverOffIcon className='mx-auto'/>} title={'Analyze your data'} para={'Create reports with an easy to use drag & drop designer'}/>
         <CardType1 color='bg-yellow-300' icon={<SecurityIcon className='mx-auto'/>} title={'Collaborate securely'} para={'Share/publish your reports with your colleagues'}/>
         <CardType1 color='bg-orange-300' icon={<AnalyticsIcon className='mx-auto'/>} title={'Embedded analytics'} para={'Get a powerful analytics tool in your own brand name'}/>

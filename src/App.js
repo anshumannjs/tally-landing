@@ -9,6 +9,7 @@ import CardsSection from './Pages/Home page/CardsSection';
 import Integration from './Pages/Home page/Integration';
 import TestimonialSection from './Pages/Home page/TestimonialSection';
 import FaqComponent from './Components/FaqComponent';
+import Footer1 from './Components/Footer1';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Integration />
       <TestimonialSection />
       <FaqComponent />
+      <Footer1 />
     </div>
   );
 }
