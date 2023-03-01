@@ -7,8 +7,8 @@ export default function HeroSection() {
         <div className="hero min-h-screen bg-gray-100 glassEffect">
             <div className="hero-content text-center">
                 <div className="max-w-6xl">
-                    <h1 className="text-5xl font-bold w-[100%] text-[#001B41]">Next-gen Saas tool that boosts your marketing and sales</h1>
-                    <p className="py-6 w-[50%] mx-auto text-black">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <h1 className="text-5xl font-bold w-[100%] text-[#001B41]">Your <b>Tally </b> Labeled  - Faster & quicker</h1>
+                    <p className="py-6 w-[50%] mx-auto text-black">Agencies & CA's who used Glassball Software - Svaed <b>40% of Analysts Time</b></p>
                     {/* <div className="relative w-[50%] mx-auto">
                         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
                             <svg aria-hidden="true" className="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
