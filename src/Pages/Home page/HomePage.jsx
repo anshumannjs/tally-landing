@@ -10,6 +10,7 @@ import TestimonialSection from './TestimonialSection'
 import FaqComponent from '../../Components/FaqComponent'
 import Footer2 from '../../Components/Footer2'
 import '../../App.css'
+import NavbarHerosection from './NavbarHerosection'
 
 import '../../Whitney-Book.otf'
 
@@ -17,8 +18,9 @@ import '../../Whitney-Book.otf'
 export default function HomePage() {
   return (
     <div className='fontFamily'>
-      <Navigation></Navigation>
-      <HeroSection></HeroSection>
+      {/* <Navigation></Navigation>
+      <HeroSection></HeroSection> */}
+      <NavbarHerosection />
       <Partners></Partners>
       <RatingComponent></RatingComponent>
       <ExploreFeature></ExploreFeature>

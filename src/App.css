@@ -13,23 +13,27 @@
   font-family: 'MyFont';
 }
 
-.glassEffect {
-  background: rgba(0, 225, 255, 0.35);
-  border-radius: 16px;
-  /* box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); */
-  backdrop-filter: blur(19.8px);
-  -webkit-backdrop-filter: blur(19.8px);
-  border: 1px solid rgba(0, 225, 255, 0.28);
-
-  background-image: url('Boxy.svg');
-  background-repeat: no-repeat;
-}
-
-.cardTheme {
+/* .glassEffect {
   background: rgba(0, 225, 255, 0.35);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(19.8px);
   -webkit-backdrop-filter: blur(19.8px);
   border: 1px solid rgba(0, 225, 255, 0.28);
+} */
+
+.glassEffect {
+  background: rgba(204, 249, 255, 0.35);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(19.8px);
+  -webkit-backdrop-filter: blur(19.8px);
+  border: 1px solid rgba(0, 225, 255, 0.28);
+}
+
+.bg{
+  background-image: url('Boxy.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }

@@ -6,7 +6,7 @@ import '../../App.css'
 
 export default function CardsSection() {
   return (
-    <div className='glassEffect mt-10 pb-10'>
+    <div className='bg mt-10 p-10'>
         <CardType1stCard />
         <CardType2ndCard />
         <CardType3rdCard />

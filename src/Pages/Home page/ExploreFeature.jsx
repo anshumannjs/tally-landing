@@ -8,7 +8,7 @@ import PsychologyIcon from '@mui/icons-material/Psychology'
 
 export default function ExploreFeature() {
   return (
-    <div className='mt-16 w-full text-center bg-white glassEffect p-5'>
+    <div className='mt-16 w-full text-center bg p-5'>
       <div className='bg-green-200 text-green-900 font-bold p-2 rounded-full inline-block'>
         FEATURES
       </div>

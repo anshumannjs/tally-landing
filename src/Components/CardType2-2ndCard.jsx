@@ -4,7 +4,7 @@ import '../App.css'
 
 export default function CardType2ndCard() {
     return (
-        <div className="card lg:card-side bg-white text-black shadow-2xl w-[90%] mx-auto mt-10 cardTheme">
+        <div className="card lg:card-side glassEffect text-black shadow-2xl w-[90%] mx-auto mt-10 cardTheme">
             <div className="card-body">
                 <div className='w-full'>
                     <div className='bg-green-200 text-green-900 font-bold p-2 rounded-full inline-block'>
