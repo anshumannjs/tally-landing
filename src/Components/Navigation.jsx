@@ -31,19 +31,20 @@ export default function Navigation(props) {
             <Navbar.Link
               active
               href="/navbars"
+              className='text-[#001B41]'
             >
               Home
             </Navbar.Link>
-            <Navbar.Link href="/navbars">
+            <Navbar.Link href="/navbars" className='text-[#001B41]'>
             Features
             </Navbar.Link>
-            <Navbar.Link href="/navbars">
+            <Navbar.Link href="/navbars" className='text-[#001B41]'>
             Pricing
             </Navbar.Link>
-            <Navbar.Link href="/navbars">
+            <Navbar.Link href="/navbars" className='text-[#001B41]'>
             Blog
             </Navbar.Link>
-            <Navbar.Link href="/navbars">
+            <Navbar.Link href="/navbars" className='text-[#001B41]'>
             Contact
             </Navbar.Link>
           </Navbar.Collapse>

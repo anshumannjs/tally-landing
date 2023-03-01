@@ -8,7 +8,7 @@ export default function Integration() {
                     INTEGRATIONS
                 </div>
 
-                <div className='font-bold text-4xl mt-5 text-black'>
+                <div className='font-bold text-4xl mt-5 text-[#001B41]'>
                     Seamless integrations with other great tools
                 </div>
 

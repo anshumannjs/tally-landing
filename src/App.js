@@ -10,6 +10,7 @@ import Integration from './Pages/Home page/Integration';
 import TestimonialSection from './Pages/Home page/TestimonialSection';
 import FaqComponent from './Components/FaqComponent';
 import Footer1 from './Components/Footer1';
+import Footer2 from './Components/Footer2';
 
 import './Whitney-Book.otf'
 
@@ -21,12 +22,12 @@ function App() {
       <Partners></Partners>
       <RatingComponent></RatingComponent>
       <ExploreFeature></ExploreFeature>
-      <ExploreFeatureCards></ExploreFeatureCards>
+      {/* <ExploreFeatureCards></ExploreFeatureCards> */}
       <CardsSection />
       <Integration />
       <TestimonialSection />
       <FaqComponent />
-      <Footer1 />
+      <Footer2 />
     </div>
   );
 }

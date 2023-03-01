@@ -1,10 +1,11 @@
 import React from 'react'
 import MemoryIcon from '@mui/icons-material/Memory'
 import SyncIcon from '@mui/icons-material/Sync'
+import '../App.css'
 
 export default function CardType3rdCard() {
     return (
-        <div className="card lg:card-side bg-white text-black shadow-xl w-[90%] mx-auto mt-10">
+        <div className="card lg:card-side bg-white text-black shadow-2xl w-[90%] mx-auto mt-10">
             <figure><img src="https://infocrest.in/images/solution/business-plan.png" alt="Album" /></figure>
             <div className="card-body">
                 <div className='w-full'>

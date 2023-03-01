@@ -6,7 +6,7 @@ export default function FaqComponent() {
             <section class="text-gray-700 bg-white">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="text-center mb-20">
-                        <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+                        <h1 class="sm:text-3xl text-2xl text-center font-bold text-[#001B41] mb-4">
                             Frequently Asked Question
                         </h1>
                         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">

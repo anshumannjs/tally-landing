@@ -1,11 +1,12 @@
 import React from 'react'
 import StarIcon from '@mui/icons-material/Star';
+import '../../App.css'
 
 export default function RatingComponent() {
   return (
-    <div className='flex flex-col md:flex-row border-2 border-gray-400 w-[90%] mx-auto mt-10 p-5 rounded-lg justify-around bg-white text-black'>
+    <div className='flex flex-col md:flex-row border-2 shadow-2xl glassEffect border-gray-400 w-[90%] mx-auto mt-10 p-5 rounded-lg justify-around bg-white text-black'>
         <div className='md:w-[50%] w-full'>
-            <div className='font-bold text-xl'>
+            <div className='font-bold text-xl text-[#001B41]'>
                 More than 13,000 teams use Sassimi platform
             </div>
 
