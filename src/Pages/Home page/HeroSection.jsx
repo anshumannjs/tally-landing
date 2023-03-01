@@ -1,9 +1,10 @@
 import React from 'react'
 import img from './pngfind.com-call-png-3044605.png'
+import '../../App.css'
 
 export default function HeroSection() {
     return (
-        <div className="hero min-h-screen bg-gray-100">
+        <div className="hero min-h-screen bg-gray-100 glassEffect">
             <div className="hero-content text-center">
                 <div className="max-w-6xl">
                     <h1 className="text-5xl font-bold w-[100%] text-[#001B41]">Next-gen Saas tool that boosts your marketing and sales</h1>

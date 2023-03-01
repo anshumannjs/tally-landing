@@ -9,7 +9,7 @@ import PsychologyIcon from '@mui/icons-material/Psychology'
 
 export default function CardType1(props) {
     return (
-        <div className="card md:w-[24%] shadow-2xl p-5 bg-white text-black">
+        <div className="card md:w-[24%] shadow-2xl p-5 bg-white text-black cardTheme">
             <div className={`${props.color} rounded-xl w-12 h-12 mx-auto flex items-center`}>
                 {
                     props.icon

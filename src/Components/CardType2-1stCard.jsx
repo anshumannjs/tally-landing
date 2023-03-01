@@ -5,7 +5,7 @@ import '../App.css'
 
 export default function CardType1stCard() {
     return (
-        <div className="card lg:card-side bg-white text-black shadow-2xl w-[90%] mx-auto mt-10">
+        <div className="card lg:card-side bg-white text-black shadow-2xl w-[90%] mx-auto mt-10 cardTheme">
             <figure><img src="https://infocrest.in/images/solution/business-plan.png" alt="Album" /></figure>
             <div className="card-body">
                 <div className='w-full'>
