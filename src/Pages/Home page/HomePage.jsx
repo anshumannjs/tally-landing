@@ -15,7 +15,7 @@ import '../../Whitney-Book.otf'
 
 export default function HomePage() {
   console.log(window.location)
-  if (window.location.pathname=='/tally-landing/'){
+  if (window.location.pathname=='/tally-landing/privacyPolicy'){
     console.log("hello");
   }
   return (
@@ -34,12 +34,12 @@ export default function HomePage() {
         :""
       }
       {
-        (window.location.pathname=='/privacyPolicy')?
+        (window.location.pathname=='/tally-landing/privacyPolicy')?
         <PrivacyPolicy />
         :""
       }
       {
-        (window.location.pathname=='/termsCondition')?
+        (window.location.pathname=='/tally-landing/termsCondition')?
         <TermsCondition />
         :""
       }
