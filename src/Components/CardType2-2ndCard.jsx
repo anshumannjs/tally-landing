@@ -4,7 +4,7 @@ import '../App.css'
 
 export default function CardType2ndCard() {
     return (
-        <div className="card lg:card-side glassEffect text-black shadow-2xl w-[90%] mx-auto mt-10 cardTheme">
+        <div className="card lg:card-side glassEffect text-black shadow-2xl w-[90%] mx-auto mt-10">
             <div className="card-body">
                 <div className='w-full'>
                     <div className='bg-green-200 text-green-900 font-bold p-2 rounded-full inline-block'>
@@ -14,7 +14,7 @@ export default function CardType2ndCard() {
                 <h2 className="card-title text-4xl text-[#001B41] title">Collaborate with your team anytime, anywhere</h2>
                 <p>See which work apps your team is working in, and join them with a click. Shared cursors equals better than screen-sharing.</p>
                
-                <div className='flex justify-end'>
+                <div className='flex justify-end h-[50%] pt-3'>
                     <div className='w-[50%] space-y-2'>
                         <div className='flex'>
                             <div className={`bg-green-200 rounded-full w-7 h-7 flex items-center`}>
