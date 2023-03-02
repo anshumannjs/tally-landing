@@ -34,12 +34,12 @@ export default function HomePage() {
         :""
       }
       {
-        (window.location.pathname=='/tally-landing/privacyPolicy')?
+        (window.location.pathname=='/privacyPolicy')?
         <PrivacyPolicy />
         :""
       }
       {
-        (window.location.pathname=='/tally-landing/termsCondition')?
+        (window.location.pathname=='/termsCondition')?
         <TermsCondition />
         :""
       }
