@@ -16,6 +16,8 @@ import '../../Whitney-Book.otf'
 export default function HomePage() {
   return (
     <div className='fontFamily'>
+      {
+        (window.location.pathname=='/')?
         <div>
           <NavbarHerosection />
           <ExploreFeature></ExploreFeature>
@@ -25,6 +27,8 @@ export default function HomePage() {
           <FaqComponent />
           <Footer2 />
         </div>
+        :""
+      }
       {
         (window.location.pathname=='/privacyPolicy')?
         <PrivacyPolicy />
