@@ -14,11 +14,10 @@ import '../../Whitney-Book.otf'
 
 
 export default function HomePage() {
-  console.log(window.location.pathname);
   return (
     <div className='fontFamily'>
       {
-        (window.location.pathname=='/')?
+        (window.location.pathname=='/tally-landing/')?
         <div>
           <NavbarHerosection />
           <ExploreFeature></ExploreFeature>
@@ -31,12 +30,12 @@ export default function HomePage() {
         :""
       }
       {
-        (window.location.pathname=='/privacyPolicy')?
+        (window.location.pathname=='/tally-landing/privacyPolicy')?
         <PrivacyPolicy />
         :""
       }
       {
-        (window.location.pathname=='/termsCondition')?
+        (window.location.pathname=='/tally-landing/termsCondition')?
         <TermsCondition />
         :""
       }

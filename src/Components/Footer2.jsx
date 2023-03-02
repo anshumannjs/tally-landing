@@ -14,7 +14,7 @@ export default function Footer2() {
                 <div className='text-black'>
                     <span className="font-bold text-[#001B41]">Legal</span>
                     <a className="link link-hover" href='/tally-landing/termsCondition' target={'_blank'}>Terms of use</a>
-                    <a className="link link-hover" href='/taly-landing/privacyPolicy' target={'_blank'}>Privacy policy</a>
+                    <a className="link link-hover" href='/tally-landing/privacyPolicy' target={'_blank'}>Privacy policy</a>
                     {/* <a className="link link-hover">Cookie policy</a> */}
                 </div>
                 <div className='text-black'>
