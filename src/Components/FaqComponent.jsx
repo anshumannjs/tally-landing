@@ -6,7 +6,7 @@ export default function FaqComponent() {
             <section class="text-gray-700 bg-white">
                 <div class="container px-5 py-24 mx-auto">
                     <div class="text-center mb-20">
-                        <h1 class="sm:text-3xl text-2xl text-center font-bold text-[#001B41] mb-4">
+                        <h1 class="sm:text-3xl text-2xl text-center font-bold text-[#001B41] mb-2">
                             Frequently Asked Question
                         </h1>
                         <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
@@ -18,59 +18,49 @@ export default function FaqComponent() {
                         <div class="w-full lg:w-1/2 px-4 py-2">
                             <details class="mb-4">
                                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                                    How Long is this site live?
+                                   What is Glassball?
                                 </summary>
 
                                 <span>
-                                    Laboris qui labore cillum culpa in sunt quis sint veniam.
-                                    Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                                    minim velit nostrud pariatur culpa magna in aute.
+                                  Glassball is a Windows-based desktop Application, that connects with your Tally. You can use our Software to import clients Bank Documents, Label them and submit as Ledger to tally.
                                 </span>
                             </details>
                             <details class="mb-4">
                                 <summary class="font-semibold bg-gray-200 rounded-md py-2 px-4">
-                                    Can I install/upload anything I want on there?
+                                   What type of documents can i upload?
                                 </summary>
 
                                 <span>
-                                    Laboris qui labore cillum culpa in sunt quis sint veniam.
-                                    Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                                    minim velit nostrud pariatur culpa magna in aute.
+                                    We Support Bank Statements of All Major Indian Nationalized Banks. For Full list of supported documents - Please see this <ul>list</ul>
                                 </span>
                             </details>
                             <details class="mb-4">
                                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                                    How can I migrate to another site?
+                                 How does Labelling work?
                                 </summary>
 
                                 <span>
-                                    Laboris qui labore cillum culpa in sunt quis sint veniam.
-                                    Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                                    minim velit nostrud pariatur culpa magna in aute.
+                                   You can Use Vouchers, present in a company to only Label. This ensures, no new Labels are brought back into your clients company
                                 </span>
                             </details>
                         </div>
                         <div class="w-full lg:w-1/2 px-4 py-2">
                             <details class="mb-4">
                                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                                    Can I change the domain you give me?
+                                    Can I create Custom Vouchers?
                                 </summary>
 
                                 <span class="px-4 py-2">
-                                    Laboris qui labore cillum culpa in sunt quis sint veniam.
-                                    Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                                    minim velit nostrud pariatur culpa magna in aute.
+                                   Custom Voucher creation is not supported at this point and will have to be created in Tally.
                                 </span>
                             </details>
                             <details class="mb-4">
                                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
-                                    How many sites I can create at once?
+                                    What is an Activation Code?
                                 </summary>
 
                                 <span class="px-4 py-2">
-                                    Laboris qui labore cillum culpa in sunt quis sint veniam.
-                                    Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                                    minim velit nostrud pariatur culpa magna in aute.
+                                    Acitivatio is your license key to use this software. You need to enter them during installtion of software
                                 </span>
                             </details>
                             <details class="mb-4">
@@ -79,9 +69,7 @@ export default function FaqComponent() {
                                 </summary>
 
                                 <span class="px-4 py-2">
-                                    Laboris qui labore cillum culpa in sunt quis sint veniam.
-                                    Dolore ex aute deserunt esse ipsum elit aliqua. Aute quis
-                                    minim velit nostrud pariatur culpa magna in aute.
+                                   You can reach us out on care@glassball.app. we are operational on All weekdays 9AM - 6PM.
                                 </span>
                             </details>
                         </div>

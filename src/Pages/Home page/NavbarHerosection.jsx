@@ -2,6 +2,8 @@ import React from 'react'
 import { Button } from 'flowbite-react';
 import { Navbar } from 'flowbite-react';
 import img from '../../Glassball (1).png'
+import img3 from '../tally.png'
+
 import img2 from './pngfind.com-call-png-3044605.png'
 
 export default function NavbarHerosection() {
@@ -58,12 +60,12 @@ export default function NavbarHerosection() {
                   <h1 className='my-auto'>
                   Your
                   </h1>
-                  <img src={img} alt="" className='w-20 h-20'/>
+                  <img src={img3} alt="" className='h-20'/>
                   <h1 className='my-auto'>
                   Labeled  - Faster & quicker
                   </h1>
                 </div>
-                    <p className="py-6 mx-auto text-black text-3xl w-full">Agencies & CA's who used Glassball Software - Svaed <b>40% of Analysts Time</b></p>
+                    <p className="py-6 mx-auto text-black text-3xl w-full">Agencies & CA's who used Glassball Software - save <b>40% of Analysts Time</b></p>
                     <img src={img2} alt="" className='mx-auto mt-3' />
                 </div>
             </div>

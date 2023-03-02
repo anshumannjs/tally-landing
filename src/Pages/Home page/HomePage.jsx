@@ -22,7 +22,7 @@ export default function HomePage() {
           <NavbarHerosection />
           <ExploreFeature></ExploreFeature>
           <CardsSection />
-          <Integration />
+        
           <TestimonialSection />
           <FaqComponent />
           <Footer2 />

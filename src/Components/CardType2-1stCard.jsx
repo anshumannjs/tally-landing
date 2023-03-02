@@ -22,10 +22,10 @@ export default function CardType1stCard() {
                             <MemoryIcon className='mx-auto'/>
                         </div>
                         <div className='font-bold text-lg text-[#001B41] text-center'>
-                            Powerful dashboard
+                            Secure Connection
                         </div>
-                        <p className='text-center'>
-                            Combine multiple reports into a single beautiful dashboard
+                        <p>
+                            Glassball connects only to local Tally and does not involve any external data transmission over the cloud
                         </p>
                     </div>
 
@@ -37,7 +37,7 @@ export default function CardType1stCard() {
                             Always in sync
                         </div>
                         <p className='text-center'>
-                            Don't worry about data, always be synchronized
+                            Your Tally Data is always sycned, in Real-time
                         </p>
                     </div>
                 </div>
