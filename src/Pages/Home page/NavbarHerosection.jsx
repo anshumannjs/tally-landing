@@ -54,7 +54,7 @@ export default function NavbarHerosection() {
 
       <div className="hero-content text-center">
                 <div className="max-w-6xl">
-                <h1 className="text-5xl font-bold w-[100%] text-[#001B41]">Your <b>Tally </b> Labeled  - Faster & quicker</h1>
+                <h1 className="text-5xl font-bold w-[100%] text-[#001B41] title">Your <b>Tally </b> Labeled  - Faster & quicker</h1>
                     <p className="py-6 w-[50%] mx-auto text-black">Agencies & CA's who used Glassball Software - Svaed <b>40% of Analysts Time</b></p>
                     {/* <div className="relative w-[50%] mx-auto">
                         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">

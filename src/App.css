@@ -9,8 +9,14 @@
   src: local('Whitney-Book'), url(./Whitney-Book.otf) format('opentype');
 }
 
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap');
 .fontFamily {
   font-family: 'MyFont';
+}
+
+.title {
+  font-family: 'Newsreader', serif;
 }
 
 /* .glassEffect {

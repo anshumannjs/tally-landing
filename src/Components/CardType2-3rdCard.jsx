@@ -13,7 +13,7 @@ export default function CardType3rdCard() {
                     CUSTOM REPORTS
                 </div>
                 </div>
-                <h2 className="card-title text-4xl">Custom report that guides your decision-making</h2>
+                <h2 className="card-title text-4xl title">Custom report that guides your decision-making</h2>
                 <p>The customer journey differs for everybody-whether you use them together or on their own, our products are flexible enough to pave the path that's best for you.</p>
                
                 <div className='justify-end space-y-3'>
