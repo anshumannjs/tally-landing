@@ -13,8 +13,8 @@ export default function Footer2() {
                 </div>
                 <div className='text-black'>
                     <span className="font-bold text-[#001B41]">Legal</span>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
+                    <a className="link link-hover" href='/termsCondition' target={'_blank'}>Terms of use</a>
+                    <a className="link link-hover" href='privacyPolicy' target={'_blank'}>Privacy policy</a>
                     {/* <a className="link link-hover">Cookie policy</a> */}
                 </div>
                 <div className='text-black'>
