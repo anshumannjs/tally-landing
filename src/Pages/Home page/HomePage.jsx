@@ -14,7 +14,7 @@ import '../../Whitney-Book.otf'
 
 
 export default function HomePage() {
-  console.log(window.location.pathname)
+  console.log(window.location)
   return (
     <div className='fontFamily'>
         <div>
@@ -27,12 +27,12 @@ export default function HomePage() {
           <Footer2 />
         </div>
       {
-        (window.location.pathname=='/tally-landing/privacyPolicy')?
+        (window.location.href=='https://anshumannjs.github.io/tally-landing/privacyPolicy')?
         <PrivacyPolicy />
         :""
       }
       {
-        (window.location.pathname=='/tally-landing/termsCondition')?
+        (window.location.href=='https://anshumannjs.github.io/tally-landing/termsCondition')?
         <TermsCondition />
         :""
       }
