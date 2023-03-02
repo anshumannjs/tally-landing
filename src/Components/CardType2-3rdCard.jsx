@@ -15,7 +15,7 @@ export default function CardType3rdCard() {
                 </div>
                 <h2 className="card-title text-4xl">Custom report that guides your decision-making</h2>
                 <p>The customer journey differs for everybody-whether you use them together or on their own, our products are flexible enough to pave the path that's best for you.</p>
-                <hr className='border border-black'/>
+               
                 <div className='justify-end space-y-3'>
                     <div className='flex space-x-3'>
                         <div className='font-bold text-xl'>

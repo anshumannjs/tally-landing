@@ -23,14 +23,18 @@
 } */
 
 .glassEffect {
-  background: rgba(204, 249, 255, 0.35);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(19.8px);
-  -webkit-backdrop-filter: blur(19.8px);
-  border: 1px solid rgba(0, 225, 255, 0.28);
+ /* From https://css.glass */
+background: rgba(255, 255, 255, 0.45);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(15.1px);
+-webkit-backdrop-filter: blur(15.1px);
+border: 1px solid rgba(255, 255, 255, 0.52);
 }
 
+.card-body  p{
+  margin: 0;
+}
 .bg{
   background-image: url('Boxy.svg');
   background-repeat: no-repeat;

@@ -15,7 +15,7 @@ export default function CardType1stCard() {
                 </div>
                 <h2 className="card-title text-4xl text-[#001B41]">We make it effortlessly to track all user analytics</h2>
                 <p>Self-service data analytics software that lets you create visually appealing data visuallizations and insightful dashboards in munites</p>
-                <hr className='border border-black'/>
+               
                 <div className='flex justify-end'>
                     <div className='w-[50%]'>
                         <div className={`bg-yellow-200 rounded-xl w-12 h-12 flex items-center`}>

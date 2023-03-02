@@ -15,7 +15,7 @@ export default function CardType1(props) {
                     props.icon
                 }
             </div>
-            <hr className='border border-black mt-8'/>
+          
             <div className="card-body items-center text-center">
                 <h2 className="card-title font-bold text-[#001B41]">{props.title}</h2>
                 <p>{props.para}</p>

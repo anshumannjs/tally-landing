@@ -13,7 +13,7 @@ export default function CardType2ndCard() {
                 </div>
                 <h2 className="card-title text-4xl text-[#001B41]">Collaborate with your team anytime, anywhere</h2>
                 <p>See which work apps your team is working in, and join them with a click. Shared cursors equals better than screen-sharing.</p>
-                <hr className='border border-black' />
+               
                 <div className='flex justify-end'>
                     <div className='w-[50%] space-y-2'>
                         <div className='flex'>
