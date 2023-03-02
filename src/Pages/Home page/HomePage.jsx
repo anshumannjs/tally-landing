@@ -17,9 +17,6 @@ export default function HomePage() {
   console.log(window.location.pathname)
   return (
     <div className='fontFamily'>
-      hello
-      {
-        (window.location.pathname=='/tally-landing')?
         <div>
           <NavbarHerosection />
           <ExploreFeature></ExploreFeature>
@@ -29,8 +26,6 @@ export default function HomePage() {
           <FaqComponent />
           <Footer2 />
         </div>
-        :""
-      }
       {
         (window.location.pathname=='/tally-landing/privacyPolicy')?
         <PrivacyPolicy />
