@@ -14,6 +14,7 @@ import '../../Whitney-Book.otf'
 
 
 export default function HomePage() {
+  console.log(window.location.pathname);
   return (
     <div className='fontFamily'>
       {
