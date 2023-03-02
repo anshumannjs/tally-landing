@@ -22,10 +22,10 @@ export default function CardType1stCard() {
                             <MemoryIcon className='mx-auto'/>
                         </div>
                         <div className='font-bold text-lg text-[#001B41]'>
-                            Powerful dashboard
+                            Secure Connection
                         </div>
                         <p>
-                            Combine multiple reports into a single beautiful dashboard
+                            Glassball connects only to local Tally and Does not Involve Any External Data transmission over the cloud
                         </p>
                     </div>
 
