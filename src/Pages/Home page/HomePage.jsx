@@ -15,6 +15,9 @@ import '../../Whitney-Book.otf'
 
 export default function HomePage() {
   console.log(window.location)
+  if (window.location.pathname=='/tally-landing/'){
+    console.log("hello");
+  }
   return (
     <div className='fontFamily'>
       {
