@@ -16,27 +16,27 @@ export default function CardType1stCard() {
                 <h2 className="card-title text-4xl text-[#001B41] title">Connect & import your Tally Data</h2>
                 <p>With just one click, import all your Tally Data into GlassBall Plugin - Your <b>Companies</b> and its associated <b>ledgers</b> and <b> vouchers </b> are automatically synced with Glassball</p>
                
-                <div className='flex justify-end'>
+                <div className='flex justify-center'>
                     <div className='w-[50%]'>
-                        <div className={`bg-yellow-200 rounded-xl w-12 h-12 flex items-center`}>
+                        <div className={`bg-yellow-200 rounded-xl w-12 h-12 flex items-center mx-auto`}>
                             <MemoryIcon className='mx-auto'/>
                         </div>
-                        <div className='font-bold text-lg text-[#001B41]'>
+                        <div className='font-bold text-lg text-[#001B41] text-center'>
                             Powerful dashboard
                         </div>
-                        <p>
+                        <p className='text-center'>
                             Combine multiple reports into a single beautiful dashboard
                         </p>
                     </div>
 
                     <div className='w-[50%]'>
-                        <div className={`bg-cyan-200 rounded-xl w-12 h-12 flex items-center`}>
+                        <div className={`bg-cyan-200 rounded-xl w-12 h-12 flex items-center mx-auto`}>
                             <SyncIcon className='mx-auto'/>
                         </div>
-                        <div className='font-bold text-lg text-[#001B41]'>
+                        <div className='font-bold text-lg text-[#001B41] text-center'>
                             Always in sync
                         </div>
-                        <p>
+                        <p className='text-center'>
                             Don't worry about data, always be synchronized
                         </p>
                     </div>
