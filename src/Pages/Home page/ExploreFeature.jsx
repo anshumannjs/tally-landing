@@ -13,7 +13,7 @@ export default function ExploreFeature() {
             How Glassball saves my Anlayst Time?    
       </div>
 
-      <div className='font-bold text-4xl mt-5 text-[#001B41]'>
+      <div className='font-bold text-4xl mt-5 text-[#001B41] title'>
       Why Glassball Would be loved by your Analyst?
 
       </div>

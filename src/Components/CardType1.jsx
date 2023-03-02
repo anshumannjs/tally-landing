@@ -17,7 +17,7 @@ export default function CardType1(props) {
             </div>
           
             <div className="card-body items-center text-center">
-                <h2 className="card-title font-bold text-[#001B41]">{props.title}</h2>
+                <h2 className="card-title font-bold text-[#001B41] title">{props.title}</h2>
                 <p>{props.para}</p>
                 <div className="flex items-center text-violet-500 cursor-pointer">
                     Learn More

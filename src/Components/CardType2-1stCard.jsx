@@ -13,8 +13,8 @@ export default function CardType1stCard() {
                     FEATURES
                 </div>
                 </div>
-                <h2 className="card-title text-4xl text-[#001B41]">We make it effortlessly to track all user analytics</h2>
-                <p>Self-service data analytics software that lets you create visually appealing data visuallizations and insightful dashboards in munites</p>
+                <h2 className="card-title text-4xl text-[#001B41] title">Connect & import your Tally Data</h2>
+                <p>With just one click, import all your Tally Data into GlassBall Plugin - Your <b>Companies</b> and its associated <b>ledgers</b> and <b> vouchers </b> are automatically synced with Glassball</p>
                
                 <div className='flex justify-end'>
                     <div className='w-[50%]'>
