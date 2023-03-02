@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tally-landing/static/css/main.c8c496bd.css",
-    "main.js": "/tally-landing/static/js/main.d06455ff.js",
+    "main.js": "/tally-landing/static/js/main.ac53e6f1.js",
     "static/js/787.39f541e5.chunk.js": "/tally-landing/static/js/787.39f541e5.chunk.js",
     "static/media/Glassball (1).png": "/tally-landing/static/media/Glassball (1).21fe044b227a8879d6dc.png",
     "static/media/pngfind.com-call-png-3044605.png": "/tally-landing/static/media/pngfind.com-call-png-3044605.43256c851671f083970c.png",
@@ -10,11 +10,11 @@
     "static/media/Boxy.svg": "/tally-landing/static/media/Boxy.8549175778abe06f0f33322301428624.svg",
     "index.html": "/tally-landing/index.html",
     "main.c8c496bd.css.map": "/tally-landing/static/css/main.c8c496bd.css.map",
-    "main.d06455ff.js.map": "/tally-landing/static/js/main.d06455ff.js.map",
+    "main.ac53e6f1.js.map": "/tally-landing/static/js/main.ac53e6f1.js.map",
     "787.39f541e5.chunk.js.map": "/tally-landing/static/js/787.39f541e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c8c496bd.css",
-    "static/js/main.d06455ff.js"
+    "static/js/main.ac53e6f1.js"
   ]
 }
