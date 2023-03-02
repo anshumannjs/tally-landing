@@ -49,6 +49,7 @@ export default function FaqComponent() {
                                 <summary class="font-semibold  bg-gray-200 rounded-md py-2 px-4">
                                     Can I create Custom Vouchers?
                                 </summary>
+                                
 
                                 <span class="px-4 py-2">
                                    Custom Voucher creation is not supported at this point and will have to be created in Tally.
