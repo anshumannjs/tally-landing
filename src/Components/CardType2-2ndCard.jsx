@@ -8,11 +8,12 @@ export default function CardType2ndCard() {
             <div className="card-body">
                 <div className='w-full'>
                     <div className='bg-green-200 text-green-900 font-bold p-2 rounded-full inline-block'>
-                        COLLABORATE
+                        Import & Label
                     </div>
                 </div>
-                <h2 className="card-title text-4xl text-[#001B41] title">Collaborate with your team anytime, anywhere</h2>
-                <p>See which work apps your team is working in, and join them with a click. Shared cursors equals better than screen-sharing.</p>
+                <h2 className="card-title text-4xl text-[#001B41] title">Labelling Your Statements- In Bulk & Faster</h2>
+                <p>Just import your Bank Documents & Glassball Intuitevely understands its against your ledgers <br /> Start Labelling them with easy shortcut keys or in bulk  </p>
+               
                
                 <div className='flex justify-end'>
                     <div className='w-[50%] space-y-2'>
@@ -21,7 +22,7 @@ export default function CardType2ndCard() {
                                 <DoneIcon className='mx-auto' style={{ color: "green" }} fontSize='small' />
                             </div>
                             <div className='font-bold ml-2 text-[#001B41]'>
-                                Organise your data
+                               Multiple companies
                             </div>
                         </div>
 
@@ -30,7 +31,7 @@ export default function CardType2ndCard() {
                                 <DoneIcon className='mx-auto' style={{ color: "green" }} fontSize='small' />
                             </div>
                             <div className='font-bold ml-2 text-[#001B41]'>
-                                Work with any team
+                               All Bank Documents Supported
                             </div>
                         </div>
 
@@ -39,7 +40,7 @@ export default function CardType2ndCard() {
                                 <DoneIcon className='mx-auto' style={{ color: "green" }} fontSize='small' />
                             </div>
                             <div className='font-bold ml-2 text-[#001B41]'>
-                                Business analytics
+                                Auto Suggest Vouchers
                             </div>
                         </div>
                     </div>
@@ -50,7 +51,7 @@ export default function CardType2ndCard() {
                                 <DoneIcon className='mx-auto' style={{ color: "green" }} fontSize='small' />
                             </div>
                             <div className='font-bold ml-2 text-[#001B41]'>
-                                Always in sync
+                               Confirmity to company-wide Voucher categories
                             </div>
                         </div>
 
@@ -59,7 +60,7 @@ export default function CardType2ndCard() {
                                 <DoneIcon className='mx-auto' style={{color:"green"}} fontSize='small'/>
                             </div>
                             <div className='font-bold ml-2 text-[#001B41]'>
-                                Embedded analytics
+                                Label in Bulk
                             </div>
                         </div>
                     </div>
