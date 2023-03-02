@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://anshumannjs.github.io/landing-page-booksapp",
+  "homepage": "https://anshumannjs.github.io/tally-landing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
