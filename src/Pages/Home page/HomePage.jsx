@@ -17,6 +17,8 @@ export default function HomePage() {
   console.log(window.location)
   return (
     <div className='fontFamily'>
+      {
+        (window.location.pathname=='/')?
         <div>
           <NavbarHerosection />
           <ExploreFeature></ExploreFeature>
@@ -26,13 +28,15 @@ export default function HomePage() {
           <FaqComponent />
           <Footer2 />
         </div>
+        :""
+      }
       {
-        (window.location.href=='https://anshumannjs.github.io/tally-landing/privacyPolicy')?
+        (window.location.pathname=='/tally-landing/privacyPolicy')?
         <PrivacyPolicy />
         :""
       }
       {
-        (window.location.href=='https://anshumannjs.github.io/tally-landing/termsCondition')?
+        (window.location.pathname=='/tally-landing/termsCondition')?
         <TermsCondition />
         :""
       }
