@@ -21,7 +21,7 @@ export default function HomePage() {
   return (
     <div className='fontFamily'>
       {
-        (window.location.pathname=='/tally-landing/')?
+        (window.location.pathname=='/')?
         <div>
           <NavbarHerosection />
           <ExploreFeature></ExploreFeature>

@@ -33,21 +33,21 @@ export default function NavbarHerosection() {
           <Navbar.Collapse>
             <Navbar.Link
               active
-              href="/navbars"
+              href="/"
               className='text-[#001B41]'
             >
               Home
             </Navbar.Link>
-            <Navbar.Link href="/navbars" className='text-[#001B41]'>
+            <Navbar.Link href="/" className='text-[#001B41]'>
             Features
             </Navbar.Link>
-            <Navbar.Link href="/navbars" className='text-[#001B41]'>
+            <Navbar.Link href="/" className='text-[#001B41]'>
             Pricing
             </Navbar.Link>
-            <Navbar.Link href="/navbars" className='text-[#001B41]'>
+            <Navbar.Link href="/" className='text-[#001B41]'>
             Blog
             </Navbar.Link>
-            <Navbar.Link href="/navbars" className='text-[#001B41]'>
+            <Navbar.Link href="/" className='text-[#001B41]'>
             Contact
             </Navbar.Link>
           </Navbar.Collapse>
